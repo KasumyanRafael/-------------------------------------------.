@@ -32,6 +32,7 @@ class SplashPage extends StatelessWidget {
         children: [
           Align(
             alignment: Alignment.center,
+            
             child: Icon(Icons.price_change_outlined, color: Colors.white, size: 90),
           ),
           Align(
