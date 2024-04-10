@@ -2,6 +2,80 @@ import 'package:flutter/material.dart';
 
 //-----GLOBAL VARIABLES-----
 final Color mainColor = Color.fromARGB(255, 1, 57, 211);
+final List<MountModel> mountItems = [
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Пекарня',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Хлебобулочные изделия'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Кондитерская',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Торты и пирожные'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1545601445-4d6a0a0565f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Бакалея',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Сахар, чай, макароны и т д'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1550583724-b2692b85b150?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Молочный отдел',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Молоко, творог, все виды сыра и т д'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Мясо',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Все виды мяса'),
+  MountModel(
+      path:
+          'https://plus.unsplash.com/premium_photo-1674498271296-5144c596b43c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Живая рыба',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Морская и речная рыба'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1610492219815-f76905e3f084?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Фрукты и овощи',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Фрукты и овощи'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1497534446932-c925b458314e?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Напитки',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Все виды напитков на любой вкус'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1547558840-8ad6c8e662a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Готовая кухня',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Горячее, салаты и обеды'),
+  MountModel(
+      path:
+          'https://images.unsplash.com/photo-1621800973389-768626d38a0c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      name: 'Колбасы',
+      description:
+          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+      location: 'Колбасы на любой вкус'),
+
+  
+];
 
 
 //-----MAIN METHOD-----
@@ -84,6 +158,9 @@ class MountsApp extends StatelessWidget {
         children: [
           AppHeader(),
           AppSearch(),
+          Expanded(
+            child: AppMountListView()
+          ),
           AppBottomBar()
         ],
       )
@@ -91,7 +168,265 @@ class MountsApp extends StatelessWidget {
   }
 }
 
+
+
+class DetailsPage extends StatelessWidget {
+
+  MountModel mount;
+
+  DetailsPage(this.mount);
+
+  @override
+  Widget build(BuildContext context) {
+    var selectedItem = mount;
+
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+          Expanded(
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(40),
+                bottomRight: Radius.circular(40)
+              ),
+              child: Stack(
+                children: [
+                  Container(
+                    padding: EdgeInsets.all(30),
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: NetworkImage(selectedItem.path),
+                          fit: BoxFit.cover
+                        )
+                      ),
+                  ),
+                  Positioned.fill(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Colors.transparent,
+                            Colors.black.withOpacity(0.7)
+                          ],
+                          begin: Alignment.center, end: Alignment.bottomCenter
+                        )
+                      )
+                    )
+                  ),
+                  Positioned(
+                    bottom: 30, left: 30, right: 0,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(selectedItem.name,
+                          style: TextStyle(
+                            color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold
+                          )
+                        ),
+                        Text(selectedItem.location,
+                          style: TextStyle(color: Colors.white, fontSize: 20)
+                        ),
+                      ]
+                    )
+                  ),
+                  AppBar(
+                    elevation: 0,
+                    backgroundColor: Colors.transparent,
+                    iconTheme: IconThemeData(color: Colors.white),
+                    title: Center(
+                      child: Icon(Icons.terrain, color: Colors.white, size: 40)
+                    ),
+                    actions: [
+                      Container(
+                        margin: EdgeInsets.only(right: 10),
+                        child: Icon(Icons.pending,color: Colors.white, size: 30)
+                      )
+                    ]
+                  )
+                ],
+              )
+            )
+          ),
+          Expanded(
+            child: Column(
+              children: [
+                DetailsRatingBar(),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
+                        child: Text('About ${selectedItem.name}', 
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold
+                          )
+                        )
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
+                        child: Text('${selectedItem.description}', style: TextStyle(fontSize: 12))
+                      )
+                    ],
+                  )
+                ),
+                DetailsBottomActions()
+              ],
+            )
+          )
+        ],
+      )
+    );
+  }
+}
+
+
 //-----WIDGETS-----
+
+class AppMountListView extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 150,
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: mountItems.length,
+        itemBuilder: (context, index) {
+          MountModel currentMount = mountItems[index];
+
+          return GestureDetector(
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => DetailsPage(currentMount))
+              );
+            },
+            child: Container(
+              alignment: Alignment.bottomLeft,
+              padding: EdgeInsets.all(20),
+              margin: EdgeInsets.all(10),
+              width: 150,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                image: DecorationImage(
+                  image: NetworkImage(currentMount.path),
+                  fit: BoxFit.cover
+                )
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(currentMount.name,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold
+                    )
+                  ),
+                  Text(currentMount.location,
+                    style: TextStyle(
+                      color: Colors.white
+                    )
+                  )
+                ]
+              )
+            ),
+          );
+        }
+      )
+    );
+  }
+}
+
+
+class DetailsRatingBar extends StatelessWidget {
+
+  var sampleRatingData = {
+    'Rating': '4.6',
+    'Price': '\$12',
+    'Open': '24hrs'
+  };
+  
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.all(10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: List.generate(
+          sampleRatingData.entries.length,
+          (index) => Container(
+              padding: EdgeInsets.all(20),
+              margin: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey.withOpacity(0.2), width: 2
+                ),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Column(
+                children: [
+                  Text(sampleRatingData.entries.elementAt(index).key,
+                    style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold)
+                  ),
+                  Text(sampleRatingData.entries.elementAt(index).value, style: TextStyle(
+                      color: mainColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 15
+                    )
+                  )
+                ]
+              )
+          )
+        )
+      )
+    );
+  }
+}
+
+class DetailsBottomActions extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
+      child: Row(
+        children: [
+          Expanded(
+            child: Material(
+              borderRadius: BorderRadius.circular(15),
+              color: mainColor,
+              child: InkWell(
+                highlightColor: Colors.white.withOpacity(0.2),
+                splashColor:Colors.white.withOpacity(0.2),
+                onTap: () {},
+                child: Container(
+                  padding: EdgeInsets.all(21),
+                  child: Text('Book Now', textAlign: TextAlign.center,
+                      style: TextStyle(color: Colors.white)
+                  )
+                ),
+              )
+            )
+          ),
+          Container(
+            margin: EdgeInsets.only(left: 10),
+            padding: EdgeInsets.all(15),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+              color: Colors.white,
+              border: Border.all(color: mainColor, width: 2)
+            ),
+            child: Icon(Icons.turned_in_not, color: mainColor, size: 25)
+          )
+        ]
+      )
+    );
+  }
+}
+
+
 class AppHeader extends StatelessWidget {  
   @override
   Widget build(BuildContext context) {
@@ -268,3 +603,18 @@ class AppBottomBarItem {
     this.isSelected = false
   });
 }
+
+class MountModel {
+  String path;
+  String name;
+  String location;
+  String description;
+
+  MountModel({
+    this.path = '',
+    this.name = '',
+    this.location = '',
+    this.description = ''
+  });
+}
+
