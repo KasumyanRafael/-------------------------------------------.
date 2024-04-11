@@ -8,74 +8,84 @@ final List<MountModel> mountItems = [
           'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Пекарня',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир изысканных вкусов и ароматов в нашей уютной булочной! Здесь вы найдёте свежие, только что из печи, булочки, круассаны и другие лакомства, которые поднимут ваше настроение и зарядят энергией на весь день. Приходите к нам за тёплыми воспоминаниями и наслаждением от каждого кусочка!',
       location: 'Хлебобулочные изделия'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Кондитерская',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир сладких искушений в нашей уютной кондитерской! Здесь вы найдёте самые вкусные пирожные, торты и шоколад, созданные с любовью и заботой о каждом ингредиенте. Насладитесь неповторимыми вкусами и ароматами, которые запомнятся вам надолго. Не упустите возможность порадовать себя и своих близких нашими чудесными десертами!',
       location: 'Торты и пирожные'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1545601445-4d6a0a0565f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Бакалея',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир свежести и разнообразия в нашей бакалее! У нас вы найдёте всё необходимое для приготовления вкусных блюд и создания уютной атмосферы вашего дома. Запаситесь продуктами на неделю и наслаждайтесь комфортом и качеством нашей продукции. Приходите к нам за успехом в кулинарии и радостью от каждого похода в магазин!',
       location: 'Сахар, чай, макароны и т д'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1550583724-b2692b85b150?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Молочный отдел',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир свежести и пользы в нашем молочном отделе! Здесь вы найдёте широкий ассортимент молока, йогуртов, творога и других молочных продуктов от лучших производителей. Порадуйте себя и своих близких вкусными и здоровыми завтраками, обедами и ужинами. Не упустите возможность сделать свою жизнь вкуснее и полезнее с нашим молочным отделом!',
       location: 'Молоко, творог, все виды сыра и т д'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Мясо',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир свежести и вкуса в нашей лавке мясника! Здесь вы найдёте широкий выбор высококачественных мясных продуктов от проверенных поставщиков. Мы предлагаем натуральные, экологически чистые продукты, которые станут основой для ваших кулинарных шедевров. Заходите к нам за свежестью, разнообразием и отличным настроением!',
       location: 'Все виды мяса'),
   MountModel(
       path:
           'https://plus.unsplash.com/premium_photo-1674498271296-5144c596b43c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Живая рыба',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя удивительный мир живой рыбы в нашем отделе! Здесь вы найдёте самых свежих и разнообразных обитателей водных глубин. Окунитесь в атмосферу свежести и чистоты, выберите рыбу на свой вкус и приготовьте настоящий кулинарный шедевр. Не упустите возможность порадовать себя и своих близких настоящим живым уловом!',
       location: 'Морская и речная рыба'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1610492219815-f76905e3f084?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Фрукты и овощи',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Приглашаем вас в наш уютный отдел «Фрукты и овощи»! Здесь вы найдёте свежие, натуральные и полезные продукты, которые станут основой для ваших кулинарных шедевров. Богатый выбор фруктов, овощей, зелени и специй порадует даже самого взыскательного гурмана. Не упустите возможность приобрести качественные продукты по доступным ценам!',
       location: 'Фрукты и овощи'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1497534446932-c925b458314e?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Напитки',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир ярких вкусов и ароматов в нашем отделе напитков! Здесь вы найдёте разнообразные соки, газированные напитки, воду и многое другое. Порадуйте себя освежающими напитками, которые зарядят вас энергией и поднимут настроение. Не упустите возможность насладиться лучшими вкусами нашего времени в нашем отделе напитков!',
       location: 'Все виды напитков на любой вкус'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1547558840-8ad6c8e662a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Готовая кухня',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя мир готовых блюд в нашем отделе «Готовая кухня»! Здесь вы найдёте разнообразные блюда на любой вкус: от классических до экзотических. Готовьте быстро, вкусно и с удовольствием благодаря нашим удобным упаковкам и рецептам. Наслаждайтесь домашней кухней без лишних хлопот!',
       location: 'Горячее, салаты и обеды'),
   MountModel(
       path:
           'https://images.unsplash.com/photo-1621800973389-768626d38a0c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       name: 'Колбасы',
       description:
-          'Mount Merbabu is a dormant stratovolcano in Central Java province on the Indonesian island of Java. The name Merbabu could be loosely translated as Mountain of Ash from the Javanese combined words; Meru means mountain and awu or abu means ash.',
+          'Откройте для себя разнообразие колбасных изделий в нашем отделе! У нас вы найдёте колбасы, сосиски, ветчину и другие мясные деликатесы. Мы предлагаем только высококачественные продукты от проверенных производителей. Порадуйте себя и своих близких вкусными закусками и горячими блюдами с нашей колбасой!',
       location: 'Колбасы на любой вкус'),
 
   
 ];
+
+List<AppBottomBarItem> barItems = [
+    AppBottomBarItem(icon: Icons.home, label: 'Каталог', isSelected: true),
+    AppBottomBarItem(icon: Icons.turned_in_not, label: 'Акции', isSelected: false),
+    AppBottomBarItem(icon: Icons.trolley, label: 'Корзина', isSelected: false),
+    AppBottomBarItem(icon: Icons.person_outline,label: 'Профиль', isSelected: false),
+    AppBottomBarItem(icon: Icons.phone,label: 'Контакты', isSelected: false),
+  ];
+
+
 
 
 //-----MAIN METHOD-----
@@ -159,7 +169,7 @@ class MountsApp extends StatelessWidget {
           AppHeader(),
           AppSearch(),
           Expanded(
-            child: AppMountListView()
+            child: AppMountListView()     
           ),
           AppBottomBar()
         ],
@@ -235,7 +245,7 @@ class DetailsPage extends StatelessWidget {
                     backgroundColor: Colors.transparent,
                     iconTheme: IconThemeData(color: Colors.white),
                     title: Center(
-                      child: Icon(Icons.terrain, color: Colors.white, size: 40)
+                      child: Icon(Icons.price_change_outlined, color: Colors.white, size: 40)
                     ),
                     actions: [
                       Container(
@@ -251,14 +261,13 @@ class DetailsPage extends StatelessWidget {
           Expanded(
             child: Column(
               children: [
-                DetailsRatingBar(),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Padding(
                         padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
-                        child: Text('About ${selectedItem.name}', 
+                        child: Text('${selectedItem.name}', 
                           textAlign: TextAlign.left,
                           style: TextStyle(
                             color: Colors.black,
@@ -274,7 +283,6 @@ class DetailsPage extends StatelessWidget {
                     ],
                   )
                 ),
-                DetailsBottomActions()
               ],
             )
           )
@@ -524,14 +532,7 @@ class AppBottomBar extends StatefulWidget {
 
 class AppBottomBarState extends State<AppBottomBar> {
 
-  List<AppBottomBarItem> barItems = [
-    AppBottomBarItem(icon: Icons.home, label: 'Каталог', isSelected: true),
-    AppBottomBarItem(icon: Icons.turned_in_not, label: 'Акции', isSelected: false),
-    AppBottomBarItem(icon: Icons.trolley, label: 'Корзина', isSelected: false),
-    AppBottomBarItem(icon: Icons.person_outline,label: 'Профиль', isSelected: false),
-    AppBottomBarItem(icon: Icons.phone,label: 'Контакты', isSelected: false),
-  ];
-
+  
   @override
   Widget build(BuildContext context) {
     return Container(
